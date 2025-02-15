@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lanu Mo'ui Flowers</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        color: rgb(234, 230, 235);
+        text-align: center;
+      }
+      header h1 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgba(18, 18, 18, 0.5);
+        font-size: 45px;
+        z-index: 1000;
+      }
+      h2,
+      h3,
+      h5 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+      h4 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        color: rgb(231, 225, 225);
+        margin-bottom: auto;
+      }
+      .navbar-nav li a {
+        color: rgb(231, 225, 225);
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+      }
+
+      .navbar-nav li a:hover {
+        color: rgba(18, 18, 18, 0.5);
+      }
+      img {
+        max-width: 100%;
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg py-1"
+      style="background-color: rgb(167, 77, 74)"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-2">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HTML/products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HTML/gallery.html">Inspiration</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HTML/about.html">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="HTML/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div>
+      <header class="position-relative">
+        <img src="HTML/images/indexHeader.png" alt="Florist" />
+        <h1 class="position-fixed top-0 end-0 me-1">LANU MO'UI</h1>
+      </header>
+    </div>
+
+    <div style="background-color: rgb(129, 139, 126)">
+      <h3>Best sellers</h3>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center gap-4 py-5">
+        <div class="card col-md-3">
+          <img
+            class="card-img-top img-fluid"
+            src="HTML/images/WeddingBouqet.jpg"
+            alt="Card image cap"
+            style="height: 450px; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">I Do</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              odio!
+            </p>
+            <a href="HTML/products.html" class="btn btn-secondary">View more</a>
+          </div>
+        </div>
+
+        <div class="card col-md-3">
+          <img
+            class="card-img-top"
+            src="HTML/images/flowerArrengement2.jpg"
+            alt="Card image cap"
+            style="height: 450px; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ohio Arrangement</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque, itaque.
+            </p>
+            <a href="HTML/products.html" class="btn btn-secondary">View more</a>
+          </div>
+        </div>
+        <div class="card col-md-3 img-fluid">
+          <img
+            class="card-img-top"
+            src="HTML/images/ItsGiving.jpg"
+            alt="Card image cap"
+            style="height: 450px; object-fit: cover"
+          />
+          <div class="card-body">
+            <h5 class="card-title">It's Giving</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque,
+              provident!
+            </p>
+            <a href="HTML/products.html" class="btn btn-secondary">View more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="background-color: rgb(231, 225, 225)">
+      <div class="container col-md-6 py-5">
+        <h3 style="color: rgb(44, 44, 44)">Customise your arrangement?</h3>
+        <p style="color: rgb(44, 44, 44)">
+          At Lanu Mo'ui, we believe every flower arrangement tells a story. With
+          a deep passion for floral design, we carefully craft each bouquet to
+          match your unique style and vision. Let us help you find the perfect
+          arrangement—customized with love, creativity, and a drive to bring
+          your dream to life.
+        </p>
+        <a href="HTML/contact.html" class="btn btn-light">Reach out</a>
+      </div>
+    </div>
+
+    <div style="color: rgb(167, 77, 74)">
+      <div
+        id="carouselControls"
+        class="carousel slide w-50 m-auto py-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h3 class="d-block w-80">
+              "I ordered a custom bouquet, and it was absolutely stunning! The
+              flowers were fresh, vibrant, and beautifully arranged. The team
+              truly listened to my preferences and created something special.
+              The attention to detail and personal touch made all the
+              difference!"
+            </h3>
+            <h5 class="text-end">- Christopher Nolan</h5>
+          </div>
+          <div class="carousel-item">
+            <h3 class="d-block w-80">
+              "I was blown away by the quality and creativity of our bouquets.
+              The colors were so lively, and the arrangement was unique. It was
+              perfect to add to the ambiance at the office. They are my only
+              supplier when it comes to flowers, highly recommend!"
+            </h3>
+            <h5 class="text-end">- Angela, Lynk & Co</h5>
+          </div>
+          <div class="carousel-item">
+            <h3 class="d-block w-80">
+              "I ordered flowers for my mother’s birthday, and she was
+              overjoyed! The bouquet was full of life, and the scent was
+              incredible. The whole process was smooth, from ordering to
+              delivery. You can tell they put love into their work. I’ll
+              definitely be ordering again!"
+            </h3>
+            <h5 class="text-end">- Josefine Hall</h5>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div style="background-color: rgb(129, 139, 126)">
+      <div class="container flex-column py-5">
+        <h2>Where can you find us?</h2>
+        <p>Newly opened at:</p>
+        <p>Magasinsgatan 20, 411 15 Gothenburg</p>
+        <iframe
+          class="col-md-6 py-3"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.7684033195633!2d11.960138276988864!3d57.70340444009062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff368a6d520ab%3A0x5506fa8551acf4f8!2sMagasinsgatan%2020%2C%20411%2018%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1738949771433!5m2!1ssv!2sse"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <div style="background-color: rgb(167, 77, 74)">
+      <footer
+        class="col-md-2 ms-5 py-5 text-start"
+        style="list-style: none; color: rgb(231, 225, 225)"
+      >
+        <li>
+          <a href="HTML/products.html" style="color: rgb(231, 225, 225)"
+            >Shop</a
+          >
+        </li>
+        <li>
+          <a href="HTML/gallery.html" style="color: rgb(231, 225, 225)"
+            >Inspiration</a
+          >
+        </li>
+        <li>
+          <a href="HTML/about.html" style="color: rgb(231, 225, 225)"
+            >Our Story</a
+          >
+        </li>
+        <li>
+          <a href="HTML/contact.html" style="color: rgb(231, 225, 225)"
+            >Contact Us</a
+          >
+        </li>
+        <p>&copy; 2025, Lanu Mo'ui AB</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      ;
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      ;
+      crossorigin="anonymous"
+      ;
+    ></script>
+  </body>
+</html>
