@@ -18,13 +18,16 @@
         display: grid;
         justify-content: center;
       }
+
       h4 {
         font-family: Georgia, "Times New Roman", Times, serif;
         color: rgb(231, 225, 225);
         margin-bottom: auto;
       }
 
+      .navbar,
       .navbar-nav li a {
+        background-color: rgb(167, 77, 74);
         color: rgb(231, 225, 225);
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
           "Lucida Sans", Arial, sans-serif;
@@ -33,6 +36,7 @@
       .navbar-nav li a:hover {
         color: rgba(18, 18, 18, 0.5);
       }
+
       .gallery {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -40,6 +44,7 @@
         width: 80%;
         margin: auto;
       }
+
       .gallery img {
         width: 100%;
         height: auto;
@@ -60,14 +65,23 @@
       .gallery img:nth-child(3n) {
         grid-row: span 2;
       }
+
+      footer,
+      .footer {
+        color: rgb(231, 225, 225);
+        background-color: rgb(167, 77, 74);
+      }
+
+      li,
+      li a {
+        color: rgb(231, 225, 225);
+        list-style: none;
+      }
     </style>
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg py-1"
-      style="background-color: rgb(167, 77, 74)"
-    >
+    <nav class="navbar navbar-expand-lg py-1">
       <button
         class="navbar-toggler"
         type="button"
@@ -81,13 +95,13 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-2">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="products.html">Products</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="gallery.html">Inspiration</a>
           </li>
           <li class="nav-item">
@@ -116,30 +130,19 @@
       <img src="images/flowersOnBike.jpg" alt="Flowers on Bike" />
     </div>
 
-    <div style="background-color: rgb(167, 77, 74)">
-      <footer
-        class="col-md-2 ms-5 py-5 text-start"
-        style="list-style: none; color: rgb(231, 225, 225)"
-      >
+    <div class="footer">
+      <footer class="ms-5 py-5 text-start">
         <li>
-          <a href="HTML/products.html" style="color: rgb(231, 225, 225)"
-            >Shop</a
-          >
+          <a href="HTML/products.html">Shop</a>
         </li>
         <li>
-          <a href="HTML/gallery.html" style="color: rgb(231, 225, 225)"
-            >Inspiration</a
-          >
+          <a href="HTML/gallery.html">Inspiration</a>
         </li>
         <li>
-          <a href="HTML/about.html" style="color: rgb(231, 225, 225)"
-            >Our Story</a
-          >
+          <a href="HTML/about.html">Our Story</a>
         </li>
         <li>
-          <a href="HTML/contact.html" style="color: rgb(231, 225, 225)"
-            >Contact Us</a
-          >
+          <a href="HTML/contact.html">Contact Us</a>
         </li>
         <p>&copy; 2025, Lanu Mo'ui AB</p>
       </footer>

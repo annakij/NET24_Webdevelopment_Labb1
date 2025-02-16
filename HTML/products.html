@@ -395,7 +395,7 @@
     </div>
 
     <div style="background-color: rgb(129, 139, 126)" ;>
-      <div class="container col-md-6 py-5">
+      <div class="container col-md-6 py-5" style="text-align: center">
         <h3 style="color: rgb(44, 44, 44)">Customise your arrangement?</h3>
         <p style="color: rgb(44, 44, 44)">
           At Lanu Mo'ui, we believe every flower arrangement tells a story. With
@@ -491,13 +491,11 @@
         });
       });
 
-      // Function to remove item from cart
       function removeFromCart(index) {
         cart.splice(index, 1);
         updateCart();
       }
 
-      // Checkout button logic
       document.getElementById("checkout-btn").addEventListener("click", () => {
         alert("Thank you for your purchase!");
         cart = [];
