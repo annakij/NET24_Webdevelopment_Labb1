@@ -24,19 +24,20 @@
         text-align: center;
         font-size: 60px;
       }
-      h2 {
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
+      h2,
       h3 {
         font-family: Georgia, "Times New Roman", Times, serif;
       }
+
       h4 {
         font-family: Georgia, "Times New Roman", Times, serif;
         color: rgb(231, 225, 225);
         margin-bottom: auto;
       }
 
+      .navbar,
       .navbar-nav li a {
+        background-color: rgb(167, 77, 74);
         color: rgb(231, 225, 225);
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
           "Lucida Sans", Arial, sans-serif;
@@ -44,6 +45,16 @@
 
       .navbar-nav li a:hover {
         color: rgba(18, 18, 18, 0.5);
+      }
+      footer,
+      .footer {
+        color: rgb(231, 225, 225);
+        background-color: rgb(167, 77, 74);
+      }
+      li,
+      li a {
+        color: rgb(231, 225, 225);
+        list-style: none;
       }
       img {
         max-width: 100%;
@@ -59,14 +70,23 @@
         opacity: 1;
         transform: translateY(0px);
       }
+      .img-fluid {
+        height: 350px;
+        width: 400px;
+        object-fit: cover;
+      }
+      .modal-content {
+        background-color: rgb(231, 225, 225);
+      }
+      .span {
+        background-color: rgb(129, 139, 126);
+        text-align: center;
+      }
     </style>
   </head>
 
   <body>
-    <nav
-      class="navbar navbar-expand-lg py-1"
-      style="background-color: rgb(167, 77, 74)"
-    >
+    <nav class="navbar navbar-expand-lg py-1">
       <button
         class="navbar-toggler"
         type="button"
@@ -80,10 +100,10 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-2">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="../index.html">Home</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="products.html">Products</a>
           </li>
           <li class="nav-item">
@@ -109,7 +129,6 @@
             src="images/galleryFlowersPink2.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -144,7 +163,6 @@
             src="images/WeddingBouqet.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -179,7 +197,6 @@
             src="images/flowerArrengement2.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -213,7 +230,6 @@
             src="images/ItsGiving.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -250,7 +266,6 @@
             src="images/flowerArrengement5.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -284,7 +299,6 @@
             src="images/galleryFlowersPink3.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -318,7 +332,6 @@
             src="images/galleryFlowersRed.jpg"
             class="img-fluid"
             alt="Product Image"
-            style="height: 350px; width: 400px; object-fit: cover"
           />
         </div>
         <div class="col-md-8">
@@ -362,7 +375,7 @@
       aria-hidden="true"
     >
       <div class="modal-dialog">
-        <div class="modal-content" style="background-color: rgb(231, 225, 225)">
+        <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="cartModalLabel">Shopping Cart</h5>
             <button
@@ -394,10 +407,10 @@
       </div>
     </div>
 
-    <div style="background-color: rgb(129, 139, 126)" ;>
-      <div class="container col-md-6 py-5" style="text-align: center">
-        <h3 style="color: rgb(44, 44, 44)">Customise your arrangement?</h3>
-        <p style="color: rgb(44, 44, 44)">
+    <div class="span">
+      <div class="container col-md-6 py-5">
+        <h3>Customise your arrangement?</h3>
+        <p>
           At Lanu Mo'ui, we believe every flower arrangement tells a story. With
           a deep passion for floral design, we carefully craft each bouquet to
           match your unique style and vision. Let us help you find the perfect
@@ -408,30 +421,19 @@
       </div>
     </div>
 
-    <div style="background-color: rgb(167, 77, 74)">
-      <footer
-        class="col-md-2 ms-5 py-5 text-start"
-        style="list-style: none; color: rgb(231, 225, 225)"
-      >
+    <div class="footer">
+      <footer class="col-md-2 ms-5 py-5 text-start">
         <li>
-          <a href="HTML/products.html" style="color: rgb(231, 225, 225)"
-            >Shop</a
-          >
+          <a href="HTML/products.html">Shop</a>
         </li>
         <li>
-          <a href="HTML/gallery.html" style="color: rgb(231, 225, 225)"
-            >Inspiration</a
-          >
+          <a href="HTML/gallery.html">Inspiration</a>
         </li>
         <li>
-          <a href="HTML/about.html" style="color: rgb(231, 225, 225)"
-            >Our Story</a
-          >
+          <a href="HTML/about.html">Our Story</a>
         </li>
         <li>
-          <a href="HTML/contact.html" style="color: rgb(231, 225, 225)"
-            >Contact Us</a
-          >
+          <a href="HTML/contact.html">Contact Us</a>
         </li>
         <p>&copy; 2025, Lanu Mo'ui AB</p>
       </footer>
