@@ -17,3 +17,5 @@ Showcase their floral products and services in an aesthetically appealing way.
 Provide an intuitive shopping experience with a functional customer cart.
 Implement a structured and visually engaging layout using Bootstrap and JavaScript.
 Ensure scalability for potential global expansion.
+
+https://annakij.github.io/NET24_Webdevelopment_Labb1/
