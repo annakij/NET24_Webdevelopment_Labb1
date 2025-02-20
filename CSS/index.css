@@ -10,8 +10,11 @@ body {
     font-size: 45px;
     z-index: 1000;
   }
+  h3 {
+    color: rgb(231, 225, 225);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
   h2,
-  h3,
   h5 {
     font-family: Georgia, "Times New Roman", Times, serif;
   }
@@ -50,7 +53,7 @@ body {
         list-style: none;
       }
 
-.carousel {
+.carousel h3, .carousel h5 {
     color: rgb(167, 77, 74)
 }
 .flex-column, #map {
