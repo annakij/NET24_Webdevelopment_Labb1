@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+  }
+  main {
+    text-align: left;
+  }
+  header h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgba(18, 18, 18, 0.5);
+    font-size: 45px;
+    z-index: 1000;
+  }
+  h2,
+  h3,
+  h5 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+  h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color:" rgba(18, 18, 18, 0.5)";
+    margin-bottom: auto;
+  }
+  .navbar,
+  .navbar-nav li a {
+    background-color: rgb(167, 77, 74);
+    color: rgb(231, 225, 225);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .navbar-nav li a:hover {
+    color: rgba(18, 18, 18, 0.5);
+  }
+
+  img {
+    max-width: 100%;
+    display: flex;
+  }
+
+  footer,
+      .footer {
+        color: rgb(231, 225, 225);
+        background-color: rgb(167, 77, 74);
+      }
+
+      li,
+      li a {
+        color: rgb(231, 225, 225);
+        list-style: none;
+      }
+.carousel {
+    color: rgb(167, 77, 74)
+}
+.flex-column, #map {
+    background-color: rgb(129, 139, 126);
+}
+.container {
+    color: rgb(44, 44, 44);
+}
+#costumize, #phone {
+    background-color: rgb(231, 225, 225);
+}

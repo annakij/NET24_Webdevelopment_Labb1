@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(231, 225, 225);
+  }
+  h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgba(18, 18, 18, 0.5);
+    text-align: center;
+    font-size: 60px;
+  }
+  h2,
+  h3 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+  }
+
+  h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(231, 225, 225);
+    margin-bottom: auto;
+  }
+
+  .navbar,
+  .navbar-nav li a {
+    background-color: rgb(167, 77, 74);
+    color: rgb(231, 225, 225);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .navbar-nav li a:hover {
+    color: rgba(18, 18, 18, 0.5);
+  }
+  footer,
+  .footer {
+    color: rgb(231, 225, 225);
+    background-color: rgb(167, 77, 74);
+  }
+  li,
+  li a {
+    color: rgb(231, 225, 225);
+    list-style: none;
+  }
+  img {
+    max-width: 100%;
+    display: flex;
+  }
+  .reveal {
+    opacity: 0;
+    transform: translateY(150px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+  .img-fluid {
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+  }
+  .modal-content {
+    background-color: rgb(231, 225, 225);
+  }
+  .span {
+    background-color: rgb(129, 139, 126);
+    text-align: center;
+  }

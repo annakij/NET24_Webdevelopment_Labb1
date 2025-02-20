@@ -1,0 +1,38 @@
+h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: rgb(231, 225, 225);
+    margin-bottom: auto;
+  }
+  h5 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .navbar,
+  .navbar-nav li a {
+    background-color: rgb(167, 77, 74);
+    color: rgb(231, 225, 225);
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+  }
+
+  .navbar-nav li a:hover {
+    color: rgba(18, 18, 18, 0.5);
+  }
+  footer,
+  .footer {
+    color: rgb(231, 225, 225);
+    background-color: rgb(167, 77, 74);
+  }
+
+  li,
+  li a {
+    color: rgb(231, 225, 225);
+    list-style: none;
+  }
+  #tributeSection {
+    background-color: rgb(231, 225, 225);
+  }
+  #futureVision {
+    background-color: rgb(129, 139, 126);
+  }
