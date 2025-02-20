@@ -61,7 +61,7 @@ body {
   .modal-content {
     background-color: rgb(231, 225, 225);
   }
-  .span {
+  #costumize {
     background-color: rgb(129, 139, 126);
     text-align: center;
   }

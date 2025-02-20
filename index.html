@@ -177,21 +177,22 @@
       </button>
     </div>
 
-    <div class="flex-column p-5">
-      <h2>Where can you find us?</h2>
-      <p>Magasinsgatan 20, 411 15 Gothenburg</p>
-      <p>Mon-Fri: 11:00 - 18:00</p>
-      <p>Saturday: 12:00 - 17:00</p>
-      <p>Sunday: Closed</p>
-      <iframe
-        class="col-md-6 py-3"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.7684033195633!2d11.960138276988864!3d57.70340444009062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff368a6d520ab%3A0x5506fa8551acf4f8!2sMagasinsgatan%2020%2C%20411%2018%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1738949771433!5m2!1ssv!2sse"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
+    <div id="map">
+      <div class="row g-0 py-5 mx-5">
+        <div
+          class="col-md-6"
+          data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2131.7684033195633!2d11.960138276988864!3d57.70340444009062!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464ff368a6d520ab%3A0x5506fa8551acf4f8!2sMagasinsgatan%2020%2C%20411%2018%20G%C3%B6teborg!5e0!3m2!1ssv!2sse!4v1740061452574!5m2!1ssv!2sse"
+          id="mymap"
+        ></div>
+        <div class="col-md-4 m-auto pt-3">
+          <h2>Where can you find us?</h2>
+          <p><i>Newly opened at:</i></p>
+          <p><b>Magasinsgatan 20, 411 15 Gothenburg</b></p>
+          <p>Mon-Fri: 11:00 - 18:00</p>
+          <p>Saturday: 12:00 - 17:00</p>
+          <p>Sunday: Closed</p>
+        </div>
+      </div>
     </div>
 
     <div class="footer">
@@ -220,5 +221,15 @@
       crossorigin="anonymous"
       ;
     ></script>
+    <script>
+      var map = document.getElementById("mymap");
+      var maplistner = function (e) {
+        var frame = document.createElement("iframe");
+        frame.src = this.getAttribute("data-src");
+        map.appendChild(frame);
+        map.removeEventListener("mouseover", maplistner);
+      };
+      map.addEventListener("mouseover", maplistner);
+    </script>
   </body>
 </html>

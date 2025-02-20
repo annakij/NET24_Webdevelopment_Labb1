@@ -26,6 +26,7 @@ body {
     color: rgb(231, 225, 225);
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
       "Lucida Sans", Arial, sans-serif;
+    text-align: left;
   }
 
   .navbar-nav li a:hover {
@@ -48,6 +49,7 @@ body {
         color: rgb(231, 225, 225);
         list-style: none;
       }
+
 .carousel {
     color: rgb(167, 77, 74)
 }
@@ -59,4 +61,23 @@ body {
 }
 #costumize, #phone {
     background-color: rgb(231, 225, 225);
+}
+#navBrand {
+    color: rgb(231, 225, 225);
+}
+#mymap{
+    background: url(../HTML/images/mapPlacer.webp); 
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+}
+#mymap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 400px;
+    border: 0;
 }
