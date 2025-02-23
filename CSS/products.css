@@ -39,16 +39,11 @@ body {
     color: rgb(231, 225, 225);
     list-style: none;
   }
-  img {
-    max-width: 100%;
-    display: flex;
-  }
   .reveal {
     opacity: 0;
     transform: translateY(150px);
     transition: opacity 0.8s ease, transform 0.8s ease;
   }
-
   .reveal.active {
     opacity: 1;
     transform: translateY(0px);
@@ -64,4 +59,6 @@ body {
   #costumize {
     background-color: rgb(129, 139, 126);
     text-align: center;
+    max-height: 300px;
+    width: fit-content;
   }
