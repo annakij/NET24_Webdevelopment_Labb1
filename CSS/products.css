@@ -1,64 +1,61 @@
+h1,
+h2,
+h3,
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.navbar-nav li a:hover,
+h1 {
+  color: rgba(18, 18, 18, 0.5);
+}
+#costumize,
+h1 {
+  text-align: center;
+}
+.modal-content,
 body {
-    background-color: rgb(231, 225, 225);
-  }
-  h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgba(18, 18, 18, 0.5);
-    text-align: center;
-    font-size: 60px;
-  }
-  h2,
-  h3 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-
-  h4 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgb(231, 225, 225);
-    margin-bottom: auto;
-  }
-
-  .navbar,
-  .navbar-nav li a {
-    background-color: rgb(167, 77, 74);
-    color: rgb(231, 225, 225);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-
-  .navbar-nav li a:hover {
-    color: rgba(18, 18, 18, 0.5);
-  }
-  footer,
-  .footer {
-    color: rgb(231, 225, 225);
-    background-color: rgb(167, 77, 74);
-  }
-  li,
-  li a {
-    color: rgb(231, 225, 225);
-    list-style: none;
-  }
-  .reveal {
-    opacity: 0;
-    transform: translateY(150px);
-    transition: opacity 0.8s ease, transform 0.8s ease;
-  }
-  .reveal.active {
-    opacity: 1;
-    transform: translateY(0px);
-  }
-  .img-fluid {
-    height: 350px;
-    width: 400px;
-    object-fit: cover;
-  }
-  .modal-content {
-    background-color: rgb(231, 225, 225);
-  }
-  #costumize {
-    background-color: rgb(129, 139, 126);
-    text-align: center;
-    max-height: 300px;
-    width: fit-content;
-  }
+  background-color: #e7e1e1;
+}
+.footer,
+.navbar,
+.navbar-nav li a,
+footer {
+  background-color: #a74d4a;
+  color: #fff;
+}
+h1 {
+  font-size: 60px;
+}
+h4 {
+  color: #fff;
+  margin-bottom: auto;
+}
+.navbar,
+.navbar-nav li a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+li,
+li a {
+  color: #fff;
+  list-style: none;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(150px);
+  transition: opacity 0.8s, transform 0.8s;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.img-fluid {
+  height: 350px;
+  width: 400px;
+  object-fit: cover;
+}
+#costumize {
+  background-color: #818b7e;
+  max-height: 300px;
+  width: fit-content;
+}

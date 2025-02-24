@@ -1,66 +1,56 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: rgb(129, 139, 126);
-    display: grid;
-    justify-content: center;
-  }
-
-  h4 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgb(231, 225, 225);
-    margin-bottom: auto;
-  }
-
-  .navbar,
-  .navbar-nav li a {
-    background-color: rgb(167, 77, 74);
-    color: rgb(231, 225, 225);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-  }
-
-  .navbar-nav li a:hover {
-    color: rgba(18, 18, 18, 0.5);
-  }
-
-  .gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 25px;
-    width: 80%;
-    margin: auto;
-  }
-
-  .gallery img {
-    width: 100%;
-    height: auto;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
-  }
-
-  .gallery img.visible {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-  .gallery img:nth-child(2n) {
-    grid-column: span 2;
-  }
-
-  .gallery img:nth-child(3n) {
-    grid-row: span 2;
-  }
-
-  footer,
-  .footer {
-    color: rgb(231, 225, 225);
-    background-color: rgb(167, 77, 74);
-  }
-
-  li,
-  li a {
-    color: rgb(231, 225, 225);
-    list-style: none;
-  }
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #818b7e;
+  display: grid;
+  justify-content: center;
+}
+.footer,
+.navbar,
+.navbar-nav li a,
+footer {
+  background-color: #a74d4a;
+  color: #fff;
+}
+h4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  margin-bottom: auto;
+}
+.navbar,
+.navbar-nav li a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar-nav li a:hover {
+  color: rgba(18, 18, 18, 0.5);
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  width: 80%;
+  margin: auto;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+.gallery img.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+.gallery img:nth-child(2n) {
+  grid-column: span 2;
+}
+.gallery img:nth-child(3n) {
+  grid-row: span 2;
+}
+li,
+li a {
+  color: #fff;
+  list-style: none;
+}

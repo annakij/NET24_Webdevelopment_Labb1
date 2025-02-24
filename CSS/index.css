@@ -1,82 +1,84 @@
-body {
-    text-align: center;
-  }
-  main {
-    text-align: left;
-  }
-  header h1 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color: rgba(18, 18, 18, 0.5);
-    font-size: 45px;
-    z-index: 1000;
-  }
-
-  h2, h3, h5 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-  }
-  h4 {
-    font-family: Georgia, "Times New Roman", Times, serif;
-    color:" rgba(18, 18, 18, 0.5)";
-    margin-bottom: auto;
-  }
-  .navbar,
-  .navbar-nav li a {
-    background-color: rgb(167, 77, 74);
-    color: rgb(231, 225, 225);
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-      "Lucida Sans", Arial, sans-serif;
-    text-align: left;
-  }
-
-  .navbar-nav li a:hover {
-    color: rgba(18, 18, 18, 0.5);
-  }
-
-  img {
-    max-width: 100%;
-    display: flex;
-  }
-
-  footer,
-      .footer {
-        color: rgb(231, 225, 225);
-        background-color: rgb(167, 77, 74);
-      }
-
-      li,
-      li a {
-        color: rgb(231, 225, 225);
-        list-style: none;
-      }
-
-.carousel h3, .carousel h5 {
-    color: rgb(167, 77, 74)
+h2,
+h3,
+h4,
+h5,
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.flex-column, #map {
-    background-color: rgb(129, 139, 126);
+.navbar-nav li a:hover,
+header h1 {
+  color: rgba(18, 18, 18, 0.5);
+}
+.footer,
+.navbar,
+.navbar-nav li a,
+footer {
+  background-color: #a74d4a;
+  color: #fff;
+}
+#navBrand,
+.footer,
+footer,
+li,
+li a {
+  color: #fff;
+}
+#mymap,
+#mymap iframe {
+  width: 600px;
+  height: 400px;
+}
+body {
+  text-align: center;
+}
+main {
+  text-align: left;
+}
+header h1 {
+  font-size: 45px;
+  z-index: 1000;
+}
+h4 {
+  color: " rgba(18, 18, 18, .5)";
+  margin-bottom: auto;
+}
+.navbar,
+.navbar-nav li a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: left;
+}
+img {
+  max-width: 100%;
+  display: flex;
+}
+li,
+li a {
+  list-style: none;
+}
+.carousel h3,
+.carousel h5 {
+  color: #a74d4a;
+}
+#map,
+.flex-column {
+  background-color: #818b7e;
 }
 .container {
-    color: rgb(44, 44, 44);
+  color: #2c2c2c;
 }
-#costumize, #phone {
-    background-color: rgb(231, 225, 225);
+#costumize,
+#phone {
+  background-color: #e7e1e1;
 }
-#navBrand {
-    color: rgb(231, 225, 225);
-}
-#mymap{
-    background: url(../HTML/images/mapPlacer.webp); 
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    width: 600px;
-    height: 400px;
+#mymap {
+  background: url(../HTML/images/mapPlacer.webp) 0 0 / cover;
+  position: relative;
+  overflow: hidden;
 }
 #mymap iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 600px;
-    height: 400px;
-    border: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 0;
 }
